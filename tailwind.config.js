@@ -8,11 +8,6 @@ module.exports = {
 			'lg': '1024px',
 			'xl': '1280px',
 			'2xl': '1550px'
-		},
-		colors: {
-			white: '#ffffff',
-			black: '#000000',
-			gray: '5F5F5F'
 		}
 	},
 	variants: {
