@@ -14,7 +14,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="absolute bottom-6">
-        <a className="anchor hide-bottom-bar-on-hover">see portfolio</a>
+        <a className="text-lg font-semibold hide-bottom-bar-on-hover">see portfolio</a>
       </div>
     </div>
   )
