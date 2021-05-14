@@ -1,4 +1,8 @@
-const Hero = () => {
+interface Props {
+  scrollToPortfolio: () => void;
+}
+
+const Hero: React.FC<Props> = ({ scrollToPortfolio }) => {
   return (
     <div className="h-screen flex flex-col justify-center items-center">
       <div className="mb-12 sm:mb-28">
@@ -14,7 +18,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="absolute bottom-6">
-        <a className="text-lg font-semibold hide-bottom-bar-on-hover">see portfolio</a>
+        <a className="text-lg font-semibold hide-bottom-bar-on-hover" onClick={scrollToPortfolio}>see portfolio</a>
       </div>
     </div>
   )
