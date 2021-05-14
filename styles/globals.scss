@@ -73,3 +73,12 @@ a {
     border-bottom-color: black;
   }
 }
+
+.about-container {
+  margin-top: 25vh;
+  margin-bottom: 5rem;
+
+  @media (max-width: 1024px) {
+    margin-top: 8rem;
+  }
+}

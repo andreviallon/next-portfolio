@@ -18,16 +18,14 @@ const Header = () => {
 							portfolio
 						</a>
 					</Link>
-					<Link href="/">
+					<Link href="/about">
 						<a className="font-medium text-lg ml-10 bottom-bar-on-hover">
 							about
 						</a>
 					</Link>
-					<Link href="/">
-						<a className="font-medium text-lg ml-10 bottom-bar-on-hover">
-							resume
-						</a>
-					</Link>
+					<a href={'resume.pdf'} target="_blank" rel="noreferrer" className="font-medium text-lg ml-10 bottom-bar-on-hover">
+						resume
+					</a>
 				</div>
 				<div className="flex sm:hidden">
 					{isMenuOpen ? (
