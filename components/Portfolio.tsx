@@ -5,7 +5,7 @@ const Portfolio = () => {
   const projects: Project[] = [
     {
         title: 'invoice app',
-        description: 'An app to manage your invoices. This project was built using Next.js and MongoDB.',
+        description: 'Full stack application to manage your invoices. This project was built using Next.js on the frontend and to create apis, Formik for form validation and a MongoDB database.',
         websiteLink: 'https://invoice-app-iota.vercel.app',
         githubLink: 'https://github.com/andreviallon/invoice-app',
         imagePath: "invoice-app"
@@ -22,7 +22,7 @@ const Portfolio = () => {
   return (
     <div>
       <h2 className="text-3xl font-semibold">portfolio</h2>
-      <div className="grid gap-8 grid-cols-1 md:grid-cols-2 mt-12">
+      <div className="grid gap-8 grid-cols-1 lg:grid-cols-2 mt-12 mx-8 md:mx-12">
         {projects.map((project, index) => (
           <div className="row-span-1" key={index}>
             <ProjectCard project={project} />
