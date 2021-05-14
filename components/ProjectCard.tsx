@@ -8,7 +8,7 @@ interface Props {
 const ProjectCard: React.FC<Props> = ({ project }) => {
   return (
     <div>
-      <div className="shadow-lg rounded-xl">
+      <div className="shadow-lg rounded-xl" style={{ zIndex: -1 }}>
         <Image src={`/${project.imagePath}.png`} alt={`${project.title}`} layout="responsive" height={130} width={200} objectFit="cover" className="rounded-xl" />
       </div>
       <p className="text-xl font-semibold mt-6">{project.title}</p>
