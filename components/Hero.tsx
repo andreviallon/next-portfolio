@@ -5,7 +5,7 @@ interface Props {
 const Hero: React.FC<Props> = ({ scrollToPortfolio }) => {
   return (
     <div className="h-screen flex flex-col justify-center items-center">
-      <div className="mb-12 sm:mb-28">
+      <div className="mb-12 sm:mb-28 px-8">
         <div className="mb-6">
           <p className="text-3xl sm:text-5xl mb-2 sm:mb-4 font-medium">hi there!</p>
           <p className="text-3xl sm:text-5xl mb-2 sm:mb-4 font-medium">my name is andré</p>
@@ -18,7 +18,7 @@ const Hero: React.FC<Props> = ({ scrollToPortfolio }) => {
         </div>
       </div>
       <div className="absolute bottom-6">
-        <a className="text-lg font-semibold hide-bottom-bar-on-hover" onClick={scrollToPortfolio}>see portfolio</a>
+        <a className="text-base sm:text-lg font-semibold hide-bottom-bar-on-hover" onClick={scrollToPortfolio}>see portfolio</a>
       </div>
     </div>
   )
