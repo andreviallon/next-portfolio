@@ -16,6 +16,13 @@ const Portfolio = () => {
         websiteLink: 'https://ip-address-tracker-orcin.vercel.app/',
         githubLink: 'https://github.com/andreviallon/ip-address-tracker',
         imagePath: "ip-address-tracker"
+    },
+    {
+        title: 'calculator app',
+        description: 'You\'re traditional calculator app... but improved, with handling for keyboard shortcuts and calculator chaining. This project was built using React and Next.js.',
+        websiteLink: 'https://calculator-nine-sepia.vercel.app/',
+        githubLink: 'https://github.com/andreviallon/calculator',
+        imagePath: "calculator"
     }
   ];  
 
