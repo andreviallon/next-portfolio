@@ -19,7 +19,7 @@ const Portfolio = () => {
     },
     {
         title: 'calculator app',
-        description: 'You\'re traditional calculator app... but improved, with handling for keyboard shortcuts and calculator chaining. This project was built using React and Next.js.',
+        description: 'You\'re traditional calculator app... but with neat features, with handling for keyboard shortcuts and calculator chaining. This project was built using React and Next.js.',
         websiteLink: 'https://calculator-nine-sepia.vercel.app/',
         githubLink: 'https://github.com/andreviallon/calculator',
         imagePath: "calculator"
