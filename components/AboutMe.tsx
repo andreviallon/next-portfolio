@@ -13,7 +13,7 @@ const AboutMe = () => {
           <a href={'resume.pdf'} target="_blank" rel="noreferrer" className="font-semibold hide-bottom-bar-on-hover">open resume</a>
         </div>
         <div className="col-span-2 lg:col-span-1" style={{ zIndex: -1 }}>
-          <Image src="/avatar.png" alt="avatar" layout="responsive" height={90} width={100} objectFit="cover" className="rounded-xl col-span-1" /> 
+          <Image src="/avatar.jpg" alt="avatar" layout="responsive" height={90} width={100} objectFit="cover" className="rounded-xl col-span-1" /> 
         </div>
       </div>
     </div>
