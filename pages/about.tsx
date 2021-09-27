@@ -1,5 +1,5 @@
-import Head from 'next/head'
-import AboutMe from '../components/AboutMe'
+import Head from "next/head";
+import AboutMe from "../components/AboutMe";
 
 export default function About() {
   return (
@@ -12,5 +12,5 @@ export default function About() {
         <AboutMe />
       </div>
     </div>
-  )
+  );
 }

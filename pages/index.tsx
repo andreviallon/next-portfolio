@@ -1,12 +1,13 @@
-import { useRef } from 'react'
-import Head from 'next/head'
-import Hero from '../components/Hero'
-import Portfolio from '../components/Portfolio'
+import { useRef } from "react";
+import Head from "next/head";
+import Hero from "../components/Hero";
+import Portfolio from "../components/Portfolio";
 
 export default function Home() {
-  const portfolioSectionRef = useRef(null)
+  const portfolioSectionRef = useRef(null);
 
-  const handleScrollToPortfolio = () => portfolioSectionRef.current.scrollIntoView()
+  const handleScrollToPortfolio = () =>
+    portfolioSectionRef.current.scrollIntoView();
 
   return (
     <div>
@@ -19,5 +20,5 @@ export default function Home() {
         <Portfolio />
       </div>
     </div>
-  )
+  );
 }
